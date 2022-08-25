@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="calculator">
+        <table id="table">
+            <tr>
+                <td colspan="7"><input type="text" name="result" id="display"></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="clear" onclick="clear()">C</button></td>
+                <td><button type="button" value="(" onclick="num(value)">(</button></td>
+                <td><button type="button" value=")" onclick="num(value)">)</button></td>
+                <td><button type="button" value="del" onclick="del()">Del</button></td>
+                <td><button type="button" value="%" onclick="num(value)">%</button></td>
+                <td><button type="button" value="x!" onclick="fact(value)">x!</button></td>
+                <td><button type="button" value="x^2" onclick="square()">x<sup>2</sup></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="7" onclick="num(value)">7</button></td>
+                <td><button type="button" value="8" onclick="num(value)">8</button></td>
+                <td><button type="button" value="9" onclick="num(value)">9</button></td>
+                <td><button type="button" value="*" onclick="num(value)">*</button></td>
+                <td><button type="button" value="/" onclick="num(value)">/</button></td>
+                <td><button type="button" value="ln" onclick="ln()">ln</button></td>
+                <td><button type="button" value="e" onclick="e()">e</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="4" onclick="num(value)">4</button></td>
+                <td><button type="button" value="5" onclick="num(value)">5</button></td>
+                <td><button type="button" value="6" onclick="num(value)">6</button></td>
+                <td><button type="button" value="+" onclick="num(value)">+</button></td>
+                <td><button type="button" value="C" onclick="num(value)">x^</button></td>
+                <td><button type="button" value="log" onclick="log()">log</button></td>
+                <td><button type="button" value="cos" onclick="cos()">cos</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="1" onclick="num(value)">1</button></td>
+                <td><button type="button" value="2" onclick="num(value)">2</button></td>
+                <td><button type="button" value="3" onclick="num(value)">3</button></td>
+                <td><button type="button" value="-" onclick="num(value)">-</button></td>
+                <td><button type="button" value="sqrt2" onclick="sqrt2()">&radic;</button></td>
+                <td><button type="button" value="sin" onclick="sin()">sin</button></td>
+                <td><button type="button" value="tan" onclick="tan()">tan</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="sqrt3" onclick="sqrt3()">&#8731</button></td>
+                <td><button type="button" value="0" onclick="num(value)">0</button></td>
+                <td><button type="button" value="." onclick="num(value)">.</button></td>
+                <td><button type="button" value="=" onclick="equal()">=</button></td>
+                <td><button type="button" value="pi" onclick="pi()">pi</button></td>
+                <td><button type="button" value="00" onclick="num(value)">00</button></td>
+                <td><button type="button" value="rad" onclick="rad()">rad</button></td>
+            </tr>
+        </table>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
