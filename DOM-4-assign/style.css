@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to bottom, #68EACC 30%, #497BE8);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:rgb(24, 24, 108);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.outer-box{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.add-items,.todo,.complete{
+    padding: 10px;
+    /* margin: 0 30px; */
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    color: #7b0a61;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:50px;
+
+}
+
+.btn{
+    position: relative;
+    width: 60px;
+    height: 27px;
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
